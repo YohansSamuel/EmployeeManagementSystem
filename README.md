@@ -35,11 +35,7 @@ First you need to clone the project from the GitHub repository and then open the
 ###  Create the Database
 Create a database as _**employee**_ in your MySQL workbench. You can create your own database. it doesn’t have to be the name as _**employee**_ in my case I used the database as _**employee**_. You can create your oen database.  If you are creating your own database, then you must change the database name in property file to the name of your changed database. You can find it in below image, the database name is highlighted.
 
-![](https://github.com/KDVC/images/blob/master/Capture4.PNG)
-
 And, database _**username**_ and _**password**_ must change according to your MySQL configuration.
-![](https://github.com/KDVC/images/blob/master/Capture5.PNG)
-
 ```diff
 - NOTE:- 
 You only need to create the database; you must not create the tables. 
@@ -52,57 +48,19 @@ You can test all the routes of the API using postman. Here I have include all th
 ! POST 
   localhost:8883/employee/save
 ```
-#### Request
-![](https://github.com/KDVC/images/blob/master/Capture6.PNG)
-
-#### Response
-![](https://github.com/KDVC/images/blob/master/Capture7.PNG)
-
-#### Database
-![](https://github.com/KDVC/images/blob/master/Capture8.PNG)
-
 ```diff
 + GET  
   localhost:8883/employee/getall
 ```
-#### Database
-![](https://github.com/KDVC/images/blob/master/Capture9.PNG)
-
-#### Response
-![](https://github.com/KDVC/images/blob/master/10.PNG)
-
 ```diff
 + GET  
   localhost:8883/employee/getone/2
 ```
-#### Database
-![](https://github.com/KDVC/images/blob/master/Capture9.PNG)
-
-#### Response
-![](https://github.com/KDVC/images/blob/master/11.PNG)
-
 ```diff
 - DELETE  
   localhost:8883/employee/delete/2
 ```
-#### Database(Before delete the record which has the employee Id is 2)
-![](https://github.com/KDVC/images/blob/master/Capture9.PNG)
-
-#### Database(After delete the record which has the employee Id as 2)
-![](https://github.com/KDVC/images/blob/master/12.PNG)
-
 ```diff
 # PUT  
   localhost:8883/employee/update
 ```
-#### Database (Before update the record which has the id as 1)
-![](https://github.com/KDVC/images/blob/master/12.PNG)
-
-#### Request
-![](https://github.com/KDVC/images/blob/master/13.PNG)
-
-#### Response
-![](https://github.com/KDVC/images/blob/master/14.PNG)
-
-#### Database (After update the record which has the id as 1)
-![](https://github.com/KDVC/images/blob/master/15.PNG)
