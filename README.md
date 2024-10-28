@@ -1,4 +1,5 @@
-# simple-crud-springboot-project
+# Employee Management System
+# Simple CRUD-Spring Boot - project
 ##  Introduction
 This is a simple spring boot project I have implemented with all the crud operations in a simple way.
 
